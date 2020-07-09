@@ -1,5 +1,6 @@
 package com.zcy;
 
+import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
@@ -7,8 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Description dubbo消费端
  * @Date 2020/7/8 12:49
  */
-//@EnableDubbo //启用dubbo
-
+@EnableDubbo //启用dubbo
 @SpringBootApplication
 public class ConsumerApplicationRun {
     public static void main(String[] args) {
