@@ -25,4 +25,4 @@ dubbo:
   monitor:
     protocol: registry # 注册监控中心
   metadata-report:
-    address: zookeeper://192.168.131.138:2181 #注册中心地址
+    address: zookeeper://192.168.131.138:2181 #注册dubbo控制台就能查看元数据
