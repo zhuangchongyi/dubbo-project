@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: dubbo-provider
+
+server:
+  port: 7001
+
+# 配置dubbo参数
+dubbo:
+  application:
+    id: dubbo-provider
+    name: dubbo-provider  #应用名称
+    version: 1.0.0
+  protocol:
+    id: dubbo   #协议名称
+    name: dubbo   #协议名称
+    port: 12345   #协议端口
+  registry:
+    id: zk-registry #注册中心id
+    protocol: zookeeper    #注册中心协议
+    address: zookeeper://192.168.131.138:2181 #注册中心地址
+    timeout: 60000 #超时时间
+  scan:
+    base-packages: com.zcy.service.impl
+  monitor:
+    protocol: registry # 注册监控中心
+  metadata-report:
+    address: zookeeper://192.168.131.138:2181 #注册中心地址

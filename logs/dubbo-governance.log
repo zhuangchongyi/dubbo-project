@@ -1,0 +1,82 @@
+2020-07-09 13:04:04.899  INFO 5588 --- [main] com.alibaba.spring.util.BeanRegistrar    : The Infrastructure bean definition [Root bean: class [org.apache.dubbo.spring.boot.beans.factory.config.DubboConfigBeanCustomizer]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=nullwith name [namePropertyDefaultValueDubboConfigBeanCustomizer] has been registered.
+2020-07-09 13:04:06.122  INFO 5588 --- [main] .b.f.a.ConfigurationBeanBindingRegistrar : The configuration bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, content : Root bean: class [org.apache.dubbo.config.ApplicationConfig]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] has been registered.
+2020-07-09 13:04:06.122  INFO 5588 --- [main] com.alibaba.spring.util.BeanRegistrar    : The Infrastructure bean definition [Root bean: class [com.alibaba.spring.beans.factory.annotation.ConfigurationBeanBindingPostProcessor]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=nullwith name [configurationBeanBindingPostProcessor] has been registered.
+2020-07-09 13:04:06.735  INFO 5588 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$51579c02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-09 13:04:07.480  INFO 5588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-09 13:04:07.661  INFO 5588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2787 ms
+2020-07-09 13:04:35.135 ERROR 5588 --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : Invalid config event received: {server.1=localhost:2888:3888:participant, version=0, server.3=localhost:2890:3890:participant, server.2=localhost:2889:3889:participant}
+2020-07-09 13:04:35.138 ERROR 5588 --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : Invalid config event received: {server.1=localhost:2888:3888:participant, version=0, server.3=localhost:2890:3890:participant, server.2=localhost:2889:3889:participant}
+2020-07-09 13:04:53.351 ERROR 5588 --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : Invalid config event received: {server.1=localhost:2888:3888:participant, version=0, server.3=localhost:2890:3890:participant, server.2=localhost:2889:3889:participant}
+2020-07-09 13:04:53.352 ERROR 5588 --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : Invalid config event received: {server.1=localhost:2888:3888:participant, version=0, server.3=localhost:2890:3890:participant, server.2=localhost:2889:3889:participant}
+2020-07-09 13:04:54.271  INFO 5588 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 13:04:54.478  INFO 5588 --- [main] .a.ConfigurationBeanBindingPostProcessor : The configuration bean [<dubbo:application qosEnable="false" hostname="DESKTOP-9CM0O04" />] have been binding by the configuration properties [{qos-enable=false}]
+2020-07-09 13:04:54.630  INFO 5588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-09 13:04:54.631  INFO 5588 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-09 13:04:54.647  INFO 5588 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-09 13:04:54.662  INFO 5588 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-09 13:04:54.961  INFO 5588 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: disableRouteUsingPUT_1
+2020-07-09 13:04:54.963  INFO 5588 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: enableRouteUsingPUT_1
+2020-07-09 13:04:54.995  INFO 5588 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: searchServiceUsingGET_1
+2020-07-09 13:04:55.030  INFO 5588 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createRuleUsingPOST_1
+2020-07-09 13:04:55.034  INFO 5588 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteRouteUsingDELETE_1
+2020-07-09 13:04:55.041  INFO 5588 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailRouteUsingGET_1
+2020-07-09 13:04:55.043  INFO 5588 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: disableRouteUsingPUT_2
+2020-07-09 13:04:55.045  INFO 5588 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: enableRouteUsingPUT_2
+2020-07-09 13:04:55.048  INFO 5588 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: searchRoutesUsingGET_1
+2020-07-09 13:04:55.052  INFO 5588 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateRuleUsingPUT_1
+2020-07-09 13:05:11.460 ERROR 5588 --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : Invalid config event received: {server.1=localhost:2888:3888:participant, version=0, server.3=localhost:2890:3890:participant, server.2=localhost:2889:3889:participant}
+2020-07-09 13:05:11.460 ERROR 5588 --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : Invalid config event received: {server.1=localhost:2888:3888:participant, version=0, server.3=localhost:2890:3890:participant, server.2=localhost:2889:3889:participant}
+2020-07-09 13:12:06.734  WARN 5588 --- [main-SendThread(192.168.131.138:2181)] org.apache.zookeeper.ClientCnxn          : Session 0x1000043f788000f for sever 192.168.131.138/192.168.131.138:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+
+org.apache.zookeeper.ClientCnxn$EndOfStreamException: Unable to read additional data from server sessionid 0x1000043f788000f, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+
+2020-07-09 13:12:06.735  WARN 5588 --- [main-SendThread(192.168.131.138:2181)] org.apache.zookeeper.ClientCnxn          : Session 0x1000043f7880011 for sever 192.168.131.138/192.168.131.138:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+
+org.apache.zookeeper.ClientCnxn$EndOfStreamException: Unable to read additional data from server sessionid 0x1000043f7880011, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+
+2020-07-09 13:12:06.734  WARN 5588 --- [main-SendThread(192.168.131.138:2181)] org.apache.zookeeper.ClientCnxn          : Session 0x1000043f7880010 for sever 192.168.131.138/192.168.131.138:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+
+org.apache.zookeeper.ClientCnxn$EndOfStreamException: Unable to read additional data from server sessionid 0x1000043f7880010, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+
+2020-07-09 13:12:28.241  WARN 5588 --- [main-SendThread(192.168.131.138:2181)] org.apache.zookeeper.ClientCnxn          : Session 0x1000043f7880011 for sever 192.168.131.138/192.168.131.138:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+
+2020-07-09 13:12:28.464  WARN 5588 --- [main-SendThread(192.168.131.138:2181)] org.apache.zookeeper.ClientCnxn          : Session 0x1000043f788000f for sever 192.168.131.138/192.168.131.138:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+
+2020-07-09 13:12:28.777  WARN 5588 --- [main-SendThread(192.168.131.138:2181)] org.apache.zookeeper.ClientCnxn          : Session 0x1000043f7880010 for sever 192.168.131.138/192.168.131.138:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:342)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+
+2020-07-09 13:12:46.836  WARN 5588 --- [Curator-ConnectionStateManager-0] o.a.c.f.state.ConnectionStateManager     : Session timeout has elapsed while SUSPENDED. Injecting a session expiration. Elapsed ms: 40001. Adjusted session timeout ms: 40000
+2020-07-09 13:12:46.836  WARN 5588 --- [Curator-ConnectionStateManager-0] o.a.c.f.state.ConnectionStateManager     : Session timeout has elapsed while SUSPENDED. Injecting a session expiration. Elapsed ms: 40001. Adjusted session timeout ms: 40000
+2020-07-09 13:12:46.836  WARN 5588 --- [Curator-ConnectionStateManager-0] o.a.c.f.state.ConnectionStateManager     : Session timeout has elapsed while SUSPENDED. Injecting a session expiration. Elapsed ms: 40001. Adjusted session timeout ms: 40000
+2020-07-09 13:12:46.940  WARN 5588 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2020-07-09 13:12:46.940  WARN 5588 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2020-07-09 13:12:46.940  WARN 5588 --- [main-EventThread] org.apache.curator.ConnectionState       : Session expired event received
+2020-07-09 13:13:05.070 ERROR 5588 --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : Invalid config event received: {server.1=localhost:2888:3888:participant, version=0, server.3=localhost:2890:3890:participant, server.2=localhost:2889:3889:participant}
+2020-07-09 13:13:05.070 ERROR 5588 --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : Invalid config event received: {server.1=localhost:2888:3888:participant, version=0, server.3=localhost:2890:3890:participant, server.2=localhost:2889:3889:participant}
+2020-07-09 13:13:05.076 ERROR 5588 --- [main-EventThread] o.a.c.framework.imps.EnsembleTracker     : Invalid config event received: {server.1=localhost:2888:3888:participant, version=0, server.3=localhost:2890:3890:participant, server.2=localhost:2889:3889:participant}

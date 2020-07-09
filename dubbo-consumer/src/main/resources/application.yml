@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: dubbo-consumer
+
+server:
+  port: 9001
+
+# 配置dubbo参数
+dubbo:
+  application:
+    name: dubbo-consumer
+  scan:
+    base-packages: com.zcy.controller
+  registry:
+    id: zk-registry #注册中心id
+    protocol: zookeeper    #注册中心协议
+    address: zookeeper://192.168.131.138:2181 #注册中心地址
+    timeout: 60000 #超时时间
+  monitor:
+    protocol: registry # 注册监控中心
