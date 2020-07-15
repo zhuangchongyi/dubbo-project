@@ -14,7 +14,7 @@ dubbo:
   registry:
     id: zk-registry #注册中心id
     protocol: zookeeper    #注册中心协议
-    address: zookeeper://192.168.131.138:2181 #注册中心地址
+    address: zookeeper://192.168.131.138:2191?backup=192.168.131.138:2192,192.168.131.138:2193 #注册中心地址
     timeout: 60000 #超时时间
   monitor:
     protocol: registry # 注册监控中心
